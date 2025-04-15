@@ -1,0 +1,146 @@
+#dark-mode:checked+.dark-mode .fa-moon {
+  opacity: 0;
+}
+
+#dark-mode:checked+.dark-mode .fa-sun {
+  opacity: 1;
+}
+
+.web-container {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+body:has(#dark-mode:checked) .bar {
+  background-color: #171717;
+}
+
+body:has(#dark-mode:checked) {
+  background-color: #202020;
+}
+
+body:has(#dark-mode:checked) .bg {
+  background-color: #252525;
+}
+
+body:has(#dark-mode:checked) .bar-ul .bar-li a {
+  color: #adadad;
+}
+
+body:has(#dark-mode:checked) a::after {
+  background-color: #C17E1F;
+}
+
+body:has(#dark-mode:checked) .logo h1 a {
+  color: #fff;
+}
+
+body:has(#dark-mode:checked) .book-table {
+  background-color: #C17E1F;
+  color: #202020;
+}
+
+body:has(#dark-mode:checked) .book-table:hover {
+  background-color: #D78C23;
+}
+
+body:has(#dark-mode:checked) .watch-video:hover .button-icon i {
+  background-color: #C17E1F;
+}
+
+body:has(#dark-mode:checked) .button-icon i {
+  background-color: #fff;
+  color: #000;
+}
+
+body:has(#dark-mode:checked) .watch-video:hover {
+  color: #C17E1F;
+}
+
+body:has(#dark-mode:checked) .button-icon {
+  background: linear-gradient(to right, #C17E1F 50%, transparent 50%);
+}
+
+body:has(#dark-mode:checked):not(:has(:target)) .bar-ul a[href="#home"],
+body:has(#dark-mode:checked):has(#home:target) .bar-ul a[href="#home"],
+body:has(#dark-mode:checked):has(#chefs:target) .bar-ul a[href="#chefs"],
+body:has(#dark-mode:checked):has(#gallary:target) .bar-ul a[href="#gallary"],
+body:has(#dark-mode:checked):has(#contact:target) .bar-ul a[href="#contact"] {
+  color: #fcfcfc;
+}
+
+body:has(#dark-mode:checked) .inner-card {
+  background-color:#171717;
+}
+body:has(#dark-mode:checked) .s1-img::before{
+  background-image: url(../image/team-shape-dark.svg);
+}
+body:has(#dark-mode:checked) .card-content h2{
+  color: #fff;
+}
+body:has(#dark-mode:checked) .card-content .ch-name{
+  color: #9f9f9f;
+}
+body:has(#dark-mode:checked) .card-content p{
+  color: #9f9f9f;
+}
+body:has(#dark-mode:checked) .screen-info h2,
+.header h2 {
+  color: #FEFEFE;
+}
+
+body:has(#dark-mode:checked) .watch-video {
+  color: #FEFEFE;
+}
+
+body:has(#dark-mode:checked) .screen-info p,
+.header h5 {
+  color: #9f9f9f;
+}
+
+body:has(#dark-mode:checked) .header span {
+  color: #c17e1f;
+}
+
+body:has(#dark-mode:checked) .s3-div {
+  background-color: #0D0D0D;
+}
+
+body:has(#dark-mode:checked) .s3-div .icon {
+  background-color: #C17E1F;
+}
+
+body:has(#dark-mode:checked) .icon i {
+  color: #171717;
+}
+
+body:has(#dark-mode:checked) .text h2 {
+  color: #adadad;
+}
+
+body:has(#dark-mode:checked) .text p {
+  color: #fff;
+}
+body:has(#dark-mode:checked) .s3-div a {
+  color: #fff;
+}
+body:has(#dark-mode:checked) .s3-form{
+  background-color: #171717;
+}
+body:has(#dark-mode:checked) .section-3 .button button{
+  background-color: #C17E1F;
+  color: #202020;
+}
+body:has(#dark-mode:checked) .section-3 .button button:hover{
+  background-color: #D78C23;
+}
+body:has(#dark-mode:checked) .row-footer .center-form button{
+  background-color: #C17E1F;
+  color: #202020;
+}
+body:has(#dark-mode:checked) .row-footer .center-form button:hover{
+  background-color: #D78C23;
+}
+body:has(#dark-mode:checked) .footer-item i{
+  color: #C17E1F;
+}

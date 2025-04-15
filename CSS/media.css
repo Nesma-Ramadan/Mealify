@@ -25,6 +25,13 @@
     .hero-section {
         height: calc(100vh - 92px);
     }
+    .screen-info h2 {
+        width: 100%;
+    
+    }
+    .screen-button {
+        width: 100%;
+    }
 
     /* ---------------section 1------------- */
     .card {
@@ -59,6 +66,9 @@
 
     .container {
         width: 70%;
+    }
+    .screen-info{
+     align-items: center;
     }
 
     .bar-ul {
@@ -160,6 +170,9 @@
 }
 
 @media screen and (max-width:768px) {
+    .screen-info{
+    align-items: center;
+    }
     .screen-info h2 {
         width: 65%;
     }
@@ -205,7 +218,9 @@
     .container {
         width: 90%;
     }
-
+    .screen-info{
+       align-items: center;
+    }
     .screen-info h2 {
         width: 100%;
     }
@@ -213,6 +228,7 @@
         width: 100%;
     }
     .row-footer .center-form {
+        flex-wrap: wrap;
         gap: 16px;
 
     }
