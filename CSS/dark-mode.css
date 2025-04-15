@@ -84,7 +84,10 @@ body:has(#dark-mode:checked) .card-content .ch-name{
 body:has(#dark-mode:checked) .card-content p{
   color: #9f9f9f;
 }
-body:has(#dark-mode:checked) .screen-info h2,
+body:has(#dark-mode:checked) .screen-info h2 {
+  color: #FEFEFE;
+}
+body:has(#dark-mode:checked)
 .header h2 {
   color: #FEFEFE;
 }
@@ -93,7 +96,10 @@ body:has(#dark-mode:checked) .watch-video {
   color: #FEFEFE;
 }
 
-body:has(#dark-mode:checked) .screen-info p,
+body:has(#dark-mode:checked) .screen-info p {
+  color: #9f9f9f;
+}
+body:has(#dark-mode:checked)
 .header h5 {
   color: #9f9f9f;
 }

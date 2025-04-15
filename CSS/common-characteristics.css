@@ -48,13 +48,12 @@ a{
     color: #7f7f90;
 }
 
-.header h2,
-span {
+.header h2 {
     font-family: "Amatic SC", sans-serif;
     font-size: 50px;
     font-weight: 400;
     text-transform: uppercase;
-    color: #212529;
+    color:#212529;
 }
 
 .header span {
